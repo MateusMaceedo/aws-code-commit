@@ -1,0 +1,66 @@
+2021-07-27 23:56:16 [ERROR]: log level: info
+2021-07-27 23:56:16 [INFO]: Retrieving AWS endpoint data
+2021-07-27 23:56:16 [INFO]: OS:  Linux x64 4.14.238-125.422.amzn1.x86_64
+2021-07-27 23:56:16 [INFO]: AWS Cloud9 Extension Host Version:  1.42.0AWS Toolkit Version:  1.27.0-6c4644db65c7
+2021-07-27 23:56:16 [INFO]: telemetry cache not found: '/home/ec2-user/environment/.c9/amazonwebservices.aws-toolkit-vscode/telemetryCache'
+2021-07-28 00:00:13 [INFO]: Running: (not started) [docker ps]
+2021-07-28 00:00:14 [INFO]: Preparing to debug locally: Lambda "getAllProducts.lambda_handler"
+2021-07-28 00:00:14 [INFO]: Building SAM application...
+2021-07-28 00:00:16 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:00:16 [INFO]: Running command: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctky04GZu/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctky04GZu/debug-requirements.txt]
+2021-07-28 00:00:16 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:00:16 [INFO]: Running: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctky04GZu/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctky04GZu/debug-requirements.txt]
+2021-07-28 00:01:16 [INFO]: Successfully sent a telemetry batch of 3
+2021-07-28 00:01:33 [INFO]: Build complete.
+2021-07-28 00:01:33 [INFO]: Starting SAM application locally
+2021-07-28 00:01:33 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:01:33 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:01:34 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:01:34 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:01:35 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:01:35 [INFO]: AWS.running.command
+2021-07-28 00:01:35 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:01:35 [INFO]: Running: (not started) [/usr/local/bin/sam local invoke getAllProducts --template /tmp/aws-toolkit-vscode/vsctky04GZu/output/template.yaml --event /tmp/aws-toolkit-vscode/vsctky04GZu/event.json --env-vars /tmp/aws-toolkit-vscode/vsctky04GZu/env-vars.json -d 5858 --skip-pull-image --debug-args -m ikp3db --ikpdb-address=0.0.0.0 --ikpdb-port=5858 -ik_ccwd=CodeCommitRepository/lambdas -ik_cwd=/var/task --ikpdb-log=G]
+2021-07-28 00:01:39 [INFO]: Waiting for SAM application to start...
+2021-07-28 00:01:39 [INFO]: waitForIkpdb: wait 2 seconds
+2021-07-28 00:01:41 [INFO]: Attaching debugger to SAM application...
+2021-07-28 00:01:42 [INFO]: Debugger attached
+2021-07-28 00:02:04 [INFO]: Running: (not started) [docker ps]
+2021-07-28 00:02:05 [INFO]: Preparing to debug locally: API "/api/products/query", Lambda "getAllProducts.lambda_handler"
+2021-07-28 00:02:05 [INFO]: Building SAM application...
+2021-07-28 00:02:05 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:02:05 [INFO]: Running command: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctkhmXlBr/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctkhmXlBr/debug-requirements.txt]
+2021-07-28 00:02:05 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:02:05 [INFO]: Running: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctkhmXlBr/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctkhmXlBr/debug-requirements.txt]
+2021-07-28 00:02:11 [INFO]: Build complete.
+2021-07-28 00:02:11 [INFO]: Starting SAM application locally
+2021-07-28 00:02:11 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:02:11 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:02:11 [INFO]: AWS.running.command
+2021-07-28 00:02:11 [INFO]: Running: (not started) [/usr/local/bin/sam local start-api --template /tmp/aws-toolkit-vscode/vsctkhmXlBr/output/template.yaml --env-vars /tmp/aws-toolkit-vscode/vsctkhmXlBr/env-vars.json --port 5858 --debug-port 5859 --skip-pull-image --debug-args -m ikp3db --ikpdb-address=0.0.0.0 --ikpdb-port=5859 -ik_ccwd=CodeCommitRepository/lambdas -ik_cwd=/var/task --ikpdb-log=G]
+2021-07-28 00:02:11 [INFO]: Sending request to local API: http://127.0.0.1:5858/api/products/query?
+2021-07-28 00:02:16 [INFO]: Local API is alive (code: ESOCKETTIMEDOUT): http://127.0.0.1:5858/api/products/query?
+2021-07-28 00:02:16 [INFO]: Waiting for SAM application to start...
+2021-07-28 00:02:16 [INFO]: waitForIkpdb: wait 2 seconds
+2021-07-28 00:02:18 [INFO]: Attaching debugger to SAM application...
+2021-07-28 00:02:19 [INFO]: Debugger attached
+2021-07-28 00:04:02 [INFO]: Running: (not started) [docker ps]
+2021-07-28 00:04:03 [INFO]: Preparing to debug locally: Lambda "getAllProducts.lambda_handler"
+2021-07-28 00:04:03 [INFO]: Building SAM application...
+2021-07-28 00:04:03 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:04:03 [INFO]: Running command: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctknfveK9/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctknfveK9/debug-requirements.txt]
+2021-07-28 00:04:03 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:04:03 [INFO]: Running: (not started) [/usr/local/bin/sam build --build-dir /tmp/aws-toolkit-vscode/vsctknfveK9/output --template /home/ec2-user/environment/CodeCommitRepository/lambdas/app___vsctk___template.yaml --use-container --manifest /tmp/aws-toolkit-vscode/vsctknfveK9/debug-requirements.txt]
+2021-07-28 00:04:09 [INFO]: Build complete.
+2021-07-28 00:04:09 [INFO]: Starting SAM application locally
+2021-07-28 00:04:10 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:04:10 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:04:10 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:04:11 [INFO]: SAM CLI location: /usr/local/bin/sam
+2021-07-28 00:04:11 [INFO]: AWS.running.command
+2021-07-28 00:04:11 [INFO]: SAM CLI not configured, using SAM found at: '/usr/local/bin/sam'
+2021-07-28 00:04:11 [INFO]: Running: (not started) [/usr/local/bin/sam local invoke getAllProducts --template /tmp/aws-toolkit-vscode/vsctknfveK9/output/template.yaml --event /tmp/aws-toolkit-vscode/vsctknfveK9/event.json --env-vars /tmp/aws-toolkit-vscode/vsctknfveK9/env-vars.json -d 5859 --skip-pull-image --debug-args -m ikp3db --ikpdb-address=0.0.0.0 --ikpdb-port=5859 -ik_ccwd=CodeCommitRepository/lambdas -ik_cwd=/var/task --ikpdb-log=G]
+2021-07-28 00:04:13 [INFO]: Waiting for SAM application to start...
+2021-07-28 00:04:13 [INFO]: waitForIkpdb: wait 2 seconds
+2021-07-28 00:04:15 [INFO]: Attaching debugger to SAM application...
+2021-07-28 00:04:16 [INFO]: Debugger attached
